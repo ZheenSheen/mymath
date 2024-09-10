@@ -6,21 +6,14 @@ func Sqrt(x float64) float64 {
     return math.Sqrt(x)
 }
 
-func Add(a, b float64) float64 {
-    return a + b
+func Abs(x float64) float64 {
+    return math.Abs(x)
 }
 
-func Subtract(a, b float64) float64 {
-    return a - b
+func Max(x, y float64) float64 {
+    return math.Max(x, y)
 }
 
-func Multiply(a, b float64) float64 {
-    return a * b
-}
-
-func Divide(a, b float64) float64 {
-    if b != 0 {
-        return a / b
-    }
-    return math.NaN()
+func Yn(n int, x float64) float64 {
+    return math.Yn(n, x)
 }
