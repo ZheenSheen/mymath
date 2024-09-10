@@ -22,9 +22,9 @@ func Sqrt(x float64) float64 {
     return math.Sqrt(x)
 }
 
-func Yn(n int) int {
+func Yn(m, n int) int {
     result := 1
-    for i := 2; i <= n; i++ {
+    for i := m; i <= n; i++ {
         result *= i
     }
     return result
