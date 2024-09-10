@@ -18,14 +18,12 @@ func Max(a, b float64) float64 {
     }
 }
 
-func Sqrt(x float64) int {
-    return int(math.Sqrt(x))
+func Sqrt(x float64) float64 {
+    return math.Sqrt(x)
 }
 
-func Yn(m, n int) int {
-    result := 1
-    for i := m; i <= n; i++ {
-        result *= i
-    }
-    return result
+func Yn(m, n int) float64 {
+    result := m * n
+    return float64(result)
+
 }
