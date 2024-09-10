@@ -18,8 +18,8 @@ func Max(a, b float64) float64 {
     }
 }
 
-func Sqrt(x float64) float64 {
-    return math.Sqrt(x)
+func Sqrt(x float64) int {
+    return int(math.Sqrt(x))
 }
 
 func Yn(m, n int) int {
