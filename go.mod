@@ -1,3 +1,3 @@
-module github.com/ZheenSheen/mymath@v2.0.0
+module github.com/ZheenSheen/mymath
 
 go 1.19
